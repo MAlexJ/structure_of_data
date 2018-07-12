@@ -3,11 +3,11 @@ package chapter_02.binary_search;
 /**
  * @author malex
  */
-public class BinarySearchInSortArray {
+class BinarySearchInSortArray {
 
     private int[] array = new int[100];
 
-    public BinarySearchInSortArray() {
+    BinarySearchInSortArray() {
         int num = 1;
         for (int i = 0; i < array.length; i++) {
             array[i] = num++;
@@ -15,7 +15,7 @@ public class BinarySearchInSortArray {
     }
 
     // find element in sort array
-    public boolean find(int element) {
+    boolean find(int element) {
         int lowerBound = 0;
         int upperBound = array.length - 1;
         int curIn;
