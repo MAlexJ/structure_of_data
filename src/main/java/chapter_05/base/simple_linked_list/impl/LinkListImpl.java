@@ -13,6 +13,8 @@ public class LinkListImpl implements LinkList
 
     /**
      * insert to the top of the list
+     * @param id ID
+     * @param data the data
      */
     @Override
     public void insertFirst(int id, String data)
@@ -24,6 +26,7 @@ public class LinkListImpl implements LinkList
 
     /**
      * delete first element
+     * @return the link {@Link}
      */
     @Override
     public Link deleteFirst()
@@ -71,6 +74,7 @@ public class LinkListImpl implements LinkList
 
     /**
      * is empty or not
+     * @return is empty or not
      */
     @Override
     public boolean isEmpty()
