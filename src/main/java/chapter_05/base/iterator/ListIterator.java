@@ -9,6 +9,6 @@ package chapter_05.base.iterator;
  *
  * @author Alex
  */
-public class ListIterator {
+public interface ListIterator {
     
 }
