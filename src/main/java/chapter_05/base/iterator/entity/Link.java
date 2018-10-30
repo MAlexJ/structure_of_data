@@ -9,10 +9,10 @@ import lombok.*;
 public class Link {
 
     @NonNull
-    private long dData;
+    private int data;
     private Link next;
 
     public void displayLink() {
-        System.out.println("dData: " + this.dData);
+        System.out.println("Data: " + this.data);
     }
 }
